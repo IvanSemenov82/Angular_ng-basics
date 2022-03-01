@@ -12,3 +12,7 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+// данная функция возвращает объект у кторого есть метод bootstrapModule в который мы передаём класс AppModule
+// в Angular основой являются модули, которые мы можем группировать и тем самым оптимизировать наше приложение
+
